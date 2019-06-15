@@ -1,10 +1,11 @@
-# DQ77KB-I7-3770S-Hackintosh
+# DQ77KB-I5-3475S-Hackintosh
 
 ```shell
-处理器：i7-3770s
+处理器：i5-3475s
 主板：Intel DQ77KB
-硬盘：Lenovo SSD SL700 120G
-内存：海力士 DDR3 1600 * 2
+硬盘：Lenovo SSD SL700 256G
+内存：三星 DDR3 1600 8G * 2
+WIFI/蓝牙：BCM94352HMB
 散热器：ID-COOLING IS-20i
 机箱：立人 E-T3 Thin-ITX
 ```
