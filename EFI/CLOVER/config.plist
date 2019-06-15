@@ -126,17 +126,17 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v dart=0 nv_disable=1 -disablegfxfirmware</string>
+		<string>dart=0 nv_disable=1 -disablegfxfirmware</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
-		<string>mac</string>
+		<string>LastBootedVolume</string>
 		<key>Fast</key>
 		<true/>
 		<key>Legacy</key>
-		<string>PBR</string>
+		<string>LegacyBiosDefault</string>
 		<key>Secure</key>
 		<false/>
 		<key>XMPDetection</key>
@@ -171,13 +171,6 @@
 	</array>
 	<key>GUI</key>
 	<dict>
-		<key>Hide</key>
-		<array>
-			<string>BOOTX64.EFI</string>
-			<string>Windows</string>
-		</array>
-		<key>Language</key>
-		<string>zh_CN:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>DoubleClick</key>
@@ -196,12 +189,12 @@
 			<key>Legacy</key>
 			<true/>
 			<key>Linux</key>
-			<false/>
+			<true/>
 			<key>Tool</key>
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>black_green</string>
+		<string>Hackintosh_ID</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -261,6 +254,96 @@
 				<key>Replace</key>
 				<data>
 				AAAAAAAAAAAAAAA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AirPortBrcm4360</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				gflSqgAAdSk=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				gflSqgAAZpA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AirPortBrcm4360 Patch 1</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				QTnEdRs=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				QTnEZpA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AirPortBrcm4360 Patch 3</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g33EBHQG
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				g33EBGaQ
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AirPort Extreme</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				axAAAHUN
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				axAAAJCQ
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AirPortBrcm4360 Patch 2</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				QQ+3zTnBdQw=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				QQ+3zTnBZpA=
 				</data>
 			</dict>
 		</array>
